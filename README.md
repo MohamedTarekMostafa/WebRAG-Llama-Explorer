@@ -4,7 +4,7 @@ This project implements a **Retrieval-Augmented Generation (RAG)** pipeline that
 
 ---
 
-## 🌟 Features
+##  Features
 * **Dual Vector Store Support:** * **PostgreSQL + pgvector:** For robust, persistent, and scalable database storage.
     * **ChromaDB:** For fast, file-based local prototyping.
 * **Smart Retrieval:** Uses `HuggingFace Embeddings` (`all-MiniLM-L6-v2`) for high-accuracy document matching.
@@ -14,7 +14,7 @@ This project implements a **Retrieval-Augmented Generation (RAG)** pipeline that
 
 ---
 
-## 🛠️ Technical Stack
+##  Technical Stack
 * **Orchestration:** [LangChain](https://python.langchain.com/)
 * **LLM:** [Groq Llama 3.3-70B](https://groq.com/)
 * **Vector Stores:** * [PostgreSQL](https://www.postgresql.org/) with [pgvector](https://github.com/pgvector/pgvector)
@@ -24,7 +24,7 @@ This project implements a **Retrieval-Augmented Generation (RAG)** pipeline that
 
 ---
 
-## 🚀 Setup & Configuration
+##  Setup & Configuration
 
 ### 1. Vector Store Selection
 The system can be configured to use either Chroma or Postgres. 
@@ -41,3 +41,4 @@ Create a `.env` file and add the following:
 ```env
 GROQ_API_KEY=your_groq_key
 DATABASE_URL=your data base that you are created in PostgreSQL
+
